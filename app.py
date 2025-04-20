@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 # FastAPI endpoint
-API_URL = "http://localhost:8000/recommend"
+API_URL = "https://shl-fastapi-uf7r.onrender.com/recommend"
 
 # Page setup
 st.set_page_config(page_title=" SHL Assessment Recommender", layout="wide")
