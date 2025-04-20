@@ -36,8 +36,8 @@ if st.button("Recommend Tests"):
                         df["Adaptive"] = df["adaptive"].apply(lambda x: "✅ Yes" if str(x).lower() == "yes" else "❌ No")
 
                         # Reorder and rename
-                        df = df[["Test Name", "test_type", "duration", "🌐 Remote", "Adaptive"]]
-                        df.columns = ["Test Name", "Type", "⏱️ Duration", "🌐 Remote", "Adaptive"]
+                        df = df[["Test Name", "test_type", "duration", "Remote", "Adaptive"]]
+                        df.columns = ["Test Name", "Type", "⏱️ Duration", "Remote", "Adaptive"]
 
                         # Display with markdown rendering
                         st.markdown(df.to_markdown(index=False), unsafe_allow_html=True)
