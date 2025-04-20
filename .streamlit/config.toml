@@ -1,0 +1,3 @@
+[server]
+# turn off the filesystem watcher entirely
+fileWatcherType = "none"
