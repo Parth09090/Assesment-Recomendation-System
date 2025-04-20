@@ -1,9 +1,8 @@
 # SHL Assessment Recommendation System
 
 A semantic search tool that recommends SHL assessments based on natural language job descriptions. Built with FAISS, Sentence Transformers, Gemini Pro, and deployed via FastAPI + Streamlit.
-Webapp link : https://recommendationsystem123.streamlit.app/
 ---
-
+Webapp link : https://recommendationsystem123.streamlit.app/
 ## Features
 
 - Semantic matching using `Sentence-Transformers`
